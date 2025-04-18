@@ -2,6 +2,10 @@
 '''For Project 3 - Algorithm 2'''
 
 def max_appreciation(values):
+    '''
+    Return the maximum value appreciation you can achieve. 
+    If aging never leads to profit, return 0.
+    '''
     if not values or len(values) < 2:
         return 0
     
@@ -19,6 +23,7 @@ def max_appreciation(values):
 
 
 def main():
+    '''Main function to run the algorithm'''
     # Sample input #1
     print(f'Sample Output #1: {max_appreciation([7, 1, 5, 3, 6, 4])} expected: 5')
 
