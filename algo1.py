@@ -31,7 +31,6 @@ def main():
     v = [3.0, 4.0, 7.5]
     print(f'Sample output #1: {max_total_charm(n, W, w, v)} expected: 15.0')
 
-    
     #Sample input #2
     n = 3
     W = 7
